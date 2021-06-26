@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 public class counting {
 	@BeforeClass
     void setUpClass() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Avneet\\Downloads\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\death\\Downloads\\chromedriver_win32\\chromedriver.exe");
       
     }
     @Test

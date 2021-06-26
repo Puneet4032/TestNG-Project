@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class Project {
 	@Test
 	public void title() throws Exception{
-	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Avneet\\Downloads\\chromedriver_win32\\chromedriver.exe");
+	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\death\\Downloads\\chromedriver_win32\\chromedriver.exe");
      ChromeDriver driver = new ChromeDriver();
      
      driver.get("http://automationpractice.com/index.php");
@@ -26,7 +26,7 @@ public class Project {
 	@Test
 	public void logo() 
 	{
-		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Avneet\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\death\\Downloads\\chromedriver_win32\\chromedriver.exe");
 	     ChromeDriver driver = new ChromeDriver();
 	     
 	     driver.get("http://automationpractice.com/index.php");
